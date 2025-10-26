@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+  scroll-behavior: smooth;
+  }
+}
+
+main {
+    height: auto;
+    font-family: sans-serif;
+}
+
+.intro h1{
+    font-size: 5rem;
+}
+
+.intro h2 {
+    font-size: 3rem;
+}
+
+.intro {
+    text-align: center;
+    background-color: #060270;
+    color: ghostwhite;
+    padding: 40px;
+}
+
+.horizontal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+}
+
+header {
+    background-color: #040149;
+    color: ghostwhite;
+    padding: 7.5px;
+}
+
+.project-list {
+    background-color: #7D79E9;
+    color: ghostwhite;
+    padding: 10px;
+}
+
+.project-list h2 {
+    text-align: center;
+    margin: 5 auto;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.project-article {
+    display: flex;
+    text-align: center;
+    font-size: 1rem;
+    margin: 25px auto;
+    background-color: #040149;
+}
+
+.project-article header {
+    padding: 25px;
+    margin: 10px 10px;
+    border: 2px solid white;
+    width: 50%;
+}
+
+.project-article header h2{
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+}
+
+.project-description {
+    text-align: center;
+}
+
+.project-article img {
+    max-width: 30vw;
+    max-height: 30vh;
+}
+
+.tools-used {
+    border: 2px solid white;
+    margin: 10px;
+    padding: 25px;
+}
+
+.tools-used ul{
+    padding: 25px;
+}
+
+.gitlink{
+    width: 50%;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    background-color: blueviolet;
+    color: ghostwhite;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.gitlink:hover{
+    background-color: ghostwhite;
+    color: black;
+}
+
+.other-info {
+    margin: auto;
+    max-width: 40vw;
+}
+
+footer {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px;
+    background-color: #040149;
+    color: ghostwhite;
+}
+
+footer address {
+    padding: 10px;
+}
+
+footer p {
+    padding: 5px;
+}

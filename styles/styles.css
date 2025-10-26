@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+  scroll-behavior: smooth;
+  }
+}
+
+main {
+    height: auto;
+    font-family: sans-serif;
+}
+
+.intro h1{
+    font-size: 5rem;
+}
+
+.intro h2 {
+    font-size: 3rem;
+}
+
+.intro {
+    text-align: center;
+
+    background-color: #060270;
+    color: ghostwhite;
+    padding: 40px;
+}
+
+.horizontal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+}
+
+header {
+    background-color: #040149;
+    color: ghostwhite;
+    padding: 7.5px;
+}
+
+nav > .horizontal-list{
+    justify-content: end;
+}
+
+nav > .horizontal-list > li{
+    margin: 0 0.4rem;
+}
+
+.about-me {
+    background-color: #7D79E9;
+    color: ghostwhite;
+    padding: 10px;
+}
+
+.about-me h2 {
+    text-align: center;
+    margin: 5 auto;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.aboutme-figure {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+.aboutme-figure img {
+    max-width: 30vw;
+    max-height: 30vh;
+}
+
+.aboutme-figure figcaption {
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.header-buttons {
+    justify-content: center;
+}
+
+.header-buttons a{
+    margin: 20px;
+    font-size: 1.5rem;
+    background-color: blueviolet;
+    color: ghostwhite;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.projects {
+    background-color: #7D79E9;
+    color: ghostwhite;
+    padding: 10px;
+}
+
+.projects-header {
+    text-align: center;
+    margin: 5 auto;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.projects-figure {
+    text-align: center;
+    font-size: 1rem;
+    background-color: #040149;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.projects-figure img {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    max-width: 30vw;
+    max-height: 30vh;
+}
+
+.projects-figure figcaption {
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.seeall{
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    background-color: blueviolet;
+    color: ghostwhite;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px;
+    background-color: #040149;
+    color: ghostwhite;
+}
+
+footer address {
+    padding: 10px;
+}
+
+footer p {
+    padding: 5px;
+}
+
+.fav-project {
+    margin: 20px;
+    font-size: 1.5rem;
+    background-color: blueviolet;
+    color: ghostwhite;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.fav-project a,
+.fav-project h3 {
+  color: inherit;
+  text-decoration: none;
+}
+
+.fav-project:hover{
+    background-color: ghostwhite;
+    color: black;
+}
+
+.header-buttons :hover{
+    background-color: ghostwhite;
+    color: black;
+}
+
+.seeall:hover{
+    background-color: ghostwhite;
+    color: black;
+}
