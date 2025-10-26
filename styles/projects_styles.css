@@ -10,6 +10,10 @@
   }
 }
 
+body {
+    background-color: #040149;
+}
+
 main {
     height: auto;
     font-family: sans-serif;
@@ -42,6 +46,7 @@ header {
     background-color: #040149;
     color: ghostwhite;
     padding: 7.5px;
+    max-width: 500px;
 }
 
 .project-list {
@@ -69,7 +74,7 @@ header {
 .project-article header {
     padding: 25px;
     margin: 10px 10px;
-    border: 2px solid white;
+    border-right: 2px solid white;
     width: 50%;
 }
 
@@ -89,13 +94,19 @@ header {
 }
 
 .tools-used {
-    border: 2px solid white;
+    border-left: 2px solid white;
     margin: 10px;
     padding: 25px;
+    min-width: 400px;
+    max-height: 400px;
 }
 
 .tools-used ul{
     padding: 25px;
+}
+
+.tools-used ul li{
+    margin: 10px auto;
 }
 
 .gitlink{
