@@ -70,13 +70,14 @@ nav > .horizontal-list > li{
 .aboutme-figure {
     text-align: center;
     font-size: 1rem;
-    margin: 0 auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #040149;
+    
+    width: 400px;
+    height: 150px;
 }
 
-.aboutme-figure img {
-    max-width: 30vw;
-    max-height: 30vh;
-}
 
 .aboutme-figure figcaption {
     max-width: 250px;
@@ -118,6 +119,9 @@ nav > .horizontal-list > li{
     background-color: #040149;
     margin: 2rem;
     padding: 1rem;
+
+    width: 300px;
+    height: 200px;
 }
 
 .projects-figure img {
@@ -144,6 +148,12 @@ nav > .horizontal-list > li{
     text-align: center;
     border-radius: 5px;
     text-decoration: none;
+}
+
+.divider {
+    background-color: #040149;
+    width: 100%;
+    padding: 20px;
 }
 
 footer {
